@@ -23,7 +23,7 @@ class Kmer:
         print('chrom_name:', chrom, 'locus:',locus)
 
 
-with open('/home/gospozha/forpython/2 /seq_y_pestis.fasta', "r") as handle:
+with open('seq_y_pestis.fasta', "r") as handle:
         # Читаем fasta файл, содержимое записываем в переменную.
         records = list(SeqIO.parse(handle, "fasta"))
         handle.close() 
